@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Minion Translator</title>
-</head>
-<body>
-    <h1>Banana translator</h1>
-</body>
+  </head>
+  <body>
+    <nav>
+      <div class="header-heading">Minion translator</div>
+    </nav>
+
+    <textarea
+      id="textarea-input"
+      class="textarea-input"
+      placeholder="Enter the sentence in english to convert to minion language"
+    ></textarea>
+
+    <button id="button-translate" class="button-primary">Translate</button>
+
+    <div id="area-output" class="area-output"></div>
+
+    <footer class="footer">
+      <div class="footer-heading">About</div>
+      <p>
+        Are you a fan of minions? Did you know that the gibberish they say is an
+        actual language. Use the translator to convert your text from English to
+        Minion speak or Banana language.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>
